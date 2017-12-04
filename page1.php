@@ -1,0 +1,105 @@
+<?php
+	include('session.php');
+?>
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title> Makers & Designers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<link href="color/default.css" rel="stylesheet">
+	
+	<link rel="shortcut icon" href="img/logo.ico">
+
+	
+</head>
+
+<body>
+	
+	<div class="navbar-wrapper">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
+					<a class="brand" href="index.html" style="max-width: 10%;">
+					<img src="123.png" class="img-fluid">
+				</a>
+
+					<h1 class="brand"><a href="index.html">Bed And Breakfast</a></h1>
+					
+					<nav class="pull-right nav-collapse collapse">
+						<ul id="menu-main" class="nav">
+							<li><a title="team" href="user.php#about">About</a></li>
+							<li><a title="services" href="user.php#services">Locations</a></li>
+							
+							<li><a title="blog" href="user.php#blog">Reviews</a></li>
+							
+							<li><a title="contact" href="user.php#contact">Contact</a></li>
+							<li><a href="user.php">Home</a> </li>
+							<li><a href="user.php"><?php echo $user_check; ?></a> </li>
+							
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="spacer green">
+		<div class="container">
+			<div class="row">
+				<div class="span12 aligncenter flyUp">
+					<h2 class="pagetitle">Makers & <strong>Designers</strong></h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<div class="row">
+				<div class="span4 offset1 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
+						<h3>PRATYUSH GARG</h3>
+						<p>
+							2016190
+						</p>
+					</div>
+				</div>
+				<div class="span4 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
+						<h3>Rounak Agarwal</h3>
+						<p>
+							2016217
+						</p>
+					</div>
+				</div>
+				<div class="span4 flyIn">
+					<div class="people">
+						<img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
+						<h3>Prateek Mittal</h3>
+						<p>
+							2016189
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	
+	
+	
+	
+</body>
+
+</html>
